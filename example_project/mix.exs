@@ -45,13 +45,7 @@ defmodule LiveVueExamples.MixProject do
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
       {:bandit, "~> 1.2"},
-      {:live_vue, path: ".."},
-
-      # overriden with a forked version with package.json
-      # remove when https://github.com/revelrylabs/elixir-nodejs/pull/89 is released
-      # you shouldn't have to do this in your project
-      # here it's needed because live_vue has type: module in package.json and it's a parent dir of this project
-      {:nodejs, github: "Valian/elixir-nodejs", branch: "master", override: true}
+      {:live_vue, path: ".."}
     ]
   end
 

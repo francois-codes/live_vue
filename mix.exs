@@ -75,7 +75,7 @@ defmodule LiveVue.MixProject do
   defp deps do
     [
       {:jason, "~> 1.2"},
-      {:nodejs, "~> 3.1"},
+      {:nodejs, "~> 3.1.2"},
       {:phoenix, ">= 1.7.0"},
       {:phoenix_live_view, ">= 0.18.0"},
       {:floki, ">= 0.30.0", optional: true},
